@@ -1,4 +1,22 @@
-// Exercise 2-10. Rewrite the function lower, which converts upper case letters to lower case, with a
-// conditional expression instead of if-else.
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <stdlib.h>
+#include <limits.h>
+#define ll long long
+#define el printf("\n")
 
-// Next
+void lower(char s[]){
+    for(int i = 0; s[i]; i++){
+        s[i] = (s[i] >= 'A' && s[i] <= 'Z') ? s[i] + ('a' - 'A') : s[i];
+    }
+}
+
+int main(){
+    
+
+    printf("%c", 1 << 7);
+
+
+    return 0;
+}
